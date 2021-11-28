@@ -10,7 +10,7 @@ public class ServiceCredential {
 		lname = lname.toLowerCase();
 		department = department.replaceAll("\\s", "");
 		department = department.toLowerCase();
-		String company = "Great Learning";
+		String company = "abc";
 		company = company.replaceAll("\\s", "");
 		company = company.toLowerCase();
 		String email = fname + lname + "@" + department + "." + company + ".com";
